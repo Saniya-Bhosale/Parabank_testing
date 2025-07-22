@@ -1,0 +1,28 @@
+# Test Plan – Parabank Online Banking System
+
+## Project Overview
+Parabank is a demo banking web application used to simulate real-world banking operations like sign-up, sign-in, and fund transfers.
+
+## Modules Covered
+- User Registration (Sign-Up)
+- User Authentication (Sign-In)
+- Fund Transfer (Account to Account)
+
+## Testing Scope
+- Functional Testing
+- Integration Testing
+- Financial Domain Validation
+
+## Test Environment
+- Browser: Chrome/Edge
+- URL: http://parabank.parasoft.com
+- Tools: Manual Testing, Excel for Test Cases, JIRA-style bug tracking
+
+## Assumptions
+- Valid accounts are pre-created for fund transfer.
+- Sufficient balance is available during tests.
+- Testing does not involve 2FA or backend DB verification.
+
+## Exit Criteria
+- All major functional flows are tested and pass.
+- No critical defects remain open.
