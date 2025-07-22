@@ -1,0 +1,42 @@
+# 🐞 Bug Report – Password Field Validation Issue
+
+## 🧾 Bug Summary
+
+| Field           | Details                                                                 |
+|----------------|-------------------------------------------------------------------------|
+| **Bug ID**      | PARABANK-BUG-001                                                        |
+| **Title**       | Password field accepts input shorter than 8 characters during registration |
+| **Reported By** | Saniya Bhosale                                                          |
+| **Date Reported** | 7-July-2025                                                          |
+| **Environment** |  Edge Browser (v138), http://parabank.parasoft.com           |
+| **Module**      | User Registration                                                       |
+| **Severity**    | Medium                                                                  |
+| **Priority**    | High                                                                    |
+| **Status**      | Open                                                                    |
+
+---
+
+## ✅ Steps to Reproduce
+
+1. Open the Parabank registration page.
+2. Fill in all the required fields with valid data.
+3. Enter **`a`** in both **Password** and **Confirm Password** fields.
+4. Click on **Register**.
+
+---
+
+## 📌 Expected Result
+
+- The system should display a validation error:  
+  **"Password must be at least 8 characters long."**
+- The user should **not** be allowed to register.
+
+---
+
+## ❌ Actual Result
+
+- The system **accepts** the password **`a`**.
+- User is successfully registered with a **1-character password**.
+- No validation message is shown.
+
+
