@@ -1,0 +1,10 @@
+# Test Scenarios – Parabank
+
+| Scenario ID | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| SC-01       | Verify that a new user can successfully register                           |
+| SC-02       | Verify that a registered user can log in with valid credentials            |
+| SC-03       | Verify that login fails with invalid credentials                           |
+| SC-04       | Validate that fund transfer updates the balance of both sender and receiver |
+| SC-05       | Validate that transfer fails when the sender has insufficient balance      |
+| SC-06       | Validate that transfer fails when the recipient account does not exist     |
